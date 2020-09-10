@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>{origin}
+        <pubdate>{pubdate}</pubdate>
+        <title>{title}</title>
+        <edition>1</edition>
+        <geoform>ASCII and Binary Digital Data</geoform>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>{othercit}</othercit>
+        <onlink>{onlink}</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>{abstract}</abstract>
+      <purpose>{purpose}</purpose>
+      <supplinf>{supplinf}</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>{begdate}</begdate>
+          <enddate>{enddate}</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Not planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>{westbc}</westbc>
+        <eastbc>{eastbc}</eastbc>
+        <northbc>{northbc}</northbc>
+        <southbc>{southbc}</southbc>
+      </bounding>
+    </spdom>
+ {keywords}
+    <accconst>{accconst}</accconst>
+    <useconst>{useconst}</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>{cntperDataContact}</cntper>
+        </cntorgp>
+        <cntpos>{cntposDataContact}</cntpos>
+        <cntaddr>
+          <addrtype>Physical</addrtype>
+          <address>Box 25046, Mail Stop 964, Denver Federal Center</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225-0046</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>{cntvoiceDataContact}</cntvoice>
+        <cntemail>{cntemailDataContact}</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>{datacred}</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>{attraccr}</attraccr>
+    </attracc>
+    <logic>{logic}</logic>
+    <complete>{complete}</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>{horizpar}</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>{vertaccr}</vertaccr>
+      </vertacc>
+    </posacc>
+ {lineage}
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>{latres}</latres>
+        <longres>{longres}</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>{horizdn}</horizdn>
+        <ellips>{ellips}</ellips>
+        <semiaxis>{semiaxis}</semiaxis>
+        <denflat>{denflat}</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>{eainfo}</eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>ScienceBase</cntorg>
+          <cntper>U.S. Geological Survey</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>{distliab}</distliab>
+ {stdorder}
+  </distinfo>
+  <metainfo>
+    <metd>{metd}</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>{cntperMetaInfo}</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>{cntposMetaInfo}</cntpos>
+        <cntaddr>
+          <addrtype>Physical</addrtype>
+          <address>MS 964, BLD 20, USGS, DFC</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225-0046</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>{cntvoiceMetaInfo}</cntvoice>
+        <cntemail>{cntemailMetaInfo}</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
